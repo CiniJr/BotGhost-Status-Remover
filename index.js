@@ -6,10 +6,9 @@
  ██║░░██║░░░██║░░░██╔╝╚██╗          
  ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
   GIT : https://github.com/RTX-GAMINGG/Bot-ghost-status-remover-by-RTX
-  DISCORD SERVER : https://discord.gg/FUEHs7RCqz
-  YOUTUBE : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
+  MINEBA DISCORD SERVER : https://discord.com/invite/HUvHuXzEuT
  * **********************************************
- *   Code by RTX GAMING
+ *   Recoded by CiniJr
  * **********************************************
  */
 
@@ -31,12 +30,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`🔗 Listening to CiniJr: http://localhost:${port}`);
+  console.log(`🔗 Powered By CiniJr`);
 });
 
 
-const statusMessages = ["PLAYING","MUSIC"];
+const statusMessages = ["Watching Player's on mc.mineba.xyz","Updating MineBA Discord"];
 
 
 let currentIndex = 0;
